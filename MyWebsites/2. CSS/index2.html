@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Learning CSS</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style type="text/css">
+      .large {
+        font-size: 300%;
+      }
+      #once{
+        color: rgb(41, 87, 21);
+      }
+      .underline {
+        text-decoration: underline;
+        color:red;
+      }
+      .bold{
+        font-weight: bold;
+      }
+      .bluebox{
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        left: 100px;
+        top: 200px;
+        padding: 10px;
+
+
+
+      }
+      .redbox{
+        background-color: #f0101d;
+        width: 300px;
+        height: 100px;
+        z-index: 2;
+        margin-left: 400px;
+
+      }
+
+      p {
+        padding:0;
+        margin:0;
+      }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="bluebox">
+      <p class="large">
+        This is some text.
+      </p>
+    </div>
+    <div class="redbox">
+      <p id="once"class="large">
+      This is some more text.
+      </p>
+    </div>
+
+      <p >
+      The third <span class="underline large bold">word</span> in this paragraph is underlined.
+      </p>
+</body>
+</html>
